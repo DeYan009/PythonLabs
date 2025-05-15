@@ -38,7 +38,6 @@ def save_output(method, url, request_headers=None, request_body=None, response=N
 
             f.write("\nResponse Body:\n")
             try:
-                # Try to parse as JSON for pretty printing
                 json_data = response.json()
                 f.write(json.dumps(json_data, indent=2))
             except ValueError:
@@ -89,14 +88,9 @@ def http_post(url, data=None, headers=None):
 
 def main():
     base_url = "https://httpbin.org/"
-
-    # OPTIONS request
     opt_file = http_options(base_url)
-
-    # GET request
     get_file = http_get(base_url)
 
-    # POST request with sample data
     post_data = {
         "title": "Sample Post",
         "body": "This is a test post",
