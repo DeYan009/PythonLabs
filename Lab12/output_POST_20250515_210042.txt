@@ -1,0 +1,12 @@
+=== POST Request to https://httpbin.org/ ===
+
+=== REQUEST DETAILS ===
+Request Method: POST
+Request URL: https://httpbin.org/
+
+Request Headers:
+User-Agent: HTTP Client Program
+Content-Type: application/json
+
+Request Body:
+{"title": "Sample Post", "body": "This is a test post", "userId": 1}

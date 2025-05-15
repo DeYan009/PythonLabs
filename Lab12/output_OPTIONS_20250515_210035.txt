@@ -1,0 +1,19 @@
+=== OPTIONS Request to https://httpbin.org/ ===
+
+
+=== RESPONSE DETAILS ===
+Status Code: 200
+
+Response Headers:
+Date: Thu, 15 May 2025 19:00:31 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Allow: OPTIONS, GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Access-Control-Max-Age: 3600
+
+Response Body:
